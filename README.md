@@ -1,6 +1,6 @@
 # Inventory Dashboard
 
-Interfaz React para [inventory-api](https://github.com/TU-USUARIO/inventory-api): login con JWT, renovación automática de token, CRUD de productos y categorías, registro de movimientos de stock y vistas distintas según el rol del usuario.
+Interfaz React para [inventory-api](https://github.com/Aaronloji/inventory-api): login con JWT, renovación automática de token, CRUD de productos y categorías, registro de movimientos de stock y vistas distintas según el rol del usuario.
 
 ![Demostración](docs/demo.gif)
 
@@ -36,10 +36,10 @@ El resumen muestra productos bajo mínimo, valor del inventario y los últimos m
 
 ## Cómo correrlo
 
-Requiere el API corriendo en `http://localhost:5000` (ver [inventory-api](https://github.com/TU-USUARIO/inventory-api)).
+Requiere el API corriendo en `http://localhost:5000` (ver [inventory-api](https://github.com/Aaronloji/inventory-api)).
 
 ```bash
-git clone https://github.com/TU-USUARIO/inventory-dashboard.git
+git clone https://github.com/Aaronloji/inventory-dashboard.git
 cd inventory-dashboard
 npm install
 cp .env.example .env     # VITE_API_URL apunta al API
