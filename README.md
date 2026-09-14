@@ -2,6 +2,18 @@
 
 Interfaz React para [inventory-api](https://github.com/Aaronloji/inventory-api): login con JWT, renovación automática de token, CRUD de productos y categorías, registro de movimientos de stock y vistas distintas según el rol del usuario.
 
+## Demo en vivo
+
+**https://inventory-dashboard-mfxf.onrender.com**
+
+| Usuario | Contraseña | Rol |
+|---|---|---|
+| admin | admin1234 | Todo, incluyendo usuarios y borrados |
+| bodega | bodega1234 | Productos y movimientos |
+| consulta | consulta1234 | Solo lectura |
+
+> El API corre en el plan gratuito de Render: si estuvo sin tráfico, el primer login puede tardar cerca de un minuto mientras el servicio despierta.
+
 ![Demostración](docs/demo.gif)
 
 ## Stack
